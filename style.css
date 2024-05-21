@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: #DCDEE6; */
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h2, h3, h5 {
+    color : rgb(45,92,147);
+    
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.deepblue {
+    color : rgb(45,92,147);
+    font-style: italic;
+}
+
+#me {
+    border-radius: 25px;
+    filter: drop-shadow(-15px 10px 4px #7f9cbd);
+    border: 2px solid black;
+    
+}
+
+.hero, footer{
+    background: rgb(45,92,147);
+    background: linear-gradient(45deg, rgba(45,92,147,0.9444152661064426) 0%, rgba(194,208,224,0.938813025210084) 31%, rgba(255,255,255,1) 100%);
+}
+
+.col-12 {
+    text-align: center;;
+}
+
+.h22 {
+    margin-bottom: 2rem;
+}
+
+.d-block {
+    height: 400px;
+    object-fit: cover
+}
+
+.carousel-inner {
+    border: 5px solid black;
+}
+
+.animation1  {
+    object-position: top;
+}
+
+.tindog {
+    object-position: 50% 30%;
+}
+
+.dogs {
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.dogflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .dogs {
+        width: 220px;
+    }
+}
+
+.hobbies {
+    margin-top: 5rem; 
+    margin-bottom: 1rem; 
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+ul li  {
+    margin-bottom: 1rem;
+
+}
+
+ul li::marker {
+    color: rgba(45,92,147,0.9444152661064426);
+}
+
+#contantme {
+    margin-bottom: 2rem;
+}
+
+.bi-facebook, fbbleu {
+    color: rgb(8, 102, 255);
+}
+
+.footerp {
+    margin: 0;
+}
